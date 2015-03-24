@@ -1,7 +1,7 @@
 docker::version: '1.4.0'
 java::distribution: 'jre'
 
-marathon::version: '0.7.5'
+marathon::version: '0.8.0'
 marathon::source_install: false
 marathon::install_java: false
 
