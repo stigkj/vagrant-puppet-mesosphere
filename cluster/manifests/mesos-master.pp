@@ -41,6 +41,7 @@ if $consul_enable {
       'advertise_addr'   => $ip,
       'node_name'        => $node_name,
       'datacenter'       => $datacenter,
+      'recursor'         => '8.8.8.8',
     }
   }
 }
